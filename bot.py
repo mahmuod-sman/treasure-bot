@@ -101,7 +101,7 @@ def mypoints(update: Update, context: CallbackContext):
     update.message.reply_text(f"🏆 نقاطك: {points}")
 
 def main():
-    updater = Updater("YOUR_BOT_TOKEN", use_context=True)
+    updater = Updater("7328057055:AAH-P-3RqyalXJvI1zthPVGAO-ru-NaBE2c", use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("mypoints", mypoints))
